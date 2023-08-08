@@ -1,5 +1,5 @@
 PROMPT = """
-Task Description: You are given a problem description and a question. The task is to: 
+Task Description: You are given a problem description and a question. The task is to write a python script which includes: 
 1) define all the variables for properties in the problem
 2) define all variables for entities in the problem
 3) parse the problem into relationships and properties based on the defined variables and entities
@@ -10,7 +10,13 @@ Every zumpus is aggressive. Zumpuses are yumpuses. Wumpuses are not small. Each 
 Question:
 Is the following statement true or false? Polly is not small.
 
-Variables for properties: 
+```python
+from z3 import * 
+
+# Create solver object
+solver = Solver()
+
+# Variables for properties: 
 Aggressive = Bool('Aggressive')
 Luminous = Bool('Luminous')
 Orange = Bool('Orange')
@@ -19,6 +25,10 @@ Sweet = Bool('Sweet')
 Bright = Bool('Bright')
 Small = Bool('Small')
 Cold = Bool('Cold')
+variables = [Aggressive, Luminous, Orange, Earthy, Sweet, Bright, Small, Cold]
+for v in variables:
+    solver.add(v)
+
 
 # Variables for entities
 Zumpus = Bool('Zumpus')
@@ -31,6 +41,9 @@ Vumpus = Bool('Vumpus')
 Dumpus = Bool('Dumpus')
 Tumpus = Bool('Tumpus')
 Impus = Bool('Impus')
+entities = [Zumpus, Yumpus, Wumpus, Jompus, Numpus, Rompus, Vumpus, Dumpus, Tumpus, Impus]
+for e in entities:
+    solver.add(e)
 
 # Relationships
 Zumpus_implies_Aggressive = Implies(Zumpus, True)
@@ -52,9 +65,35 @@ Tumpuses_implies_Cold = Implies(Tumpuses, True)
 Tumpuses_implies_Impus = Implies(Tumpuses, Impus)
 Polly_implies_Jompus = Implies(Polly, Jompus)
 
-Fact:
-Polly_implies_Small = Implies(Polly, True)
+relationships = [Zumpus_implies_Aggressive, 
+Zumpus_implies_Yumpuses,
+Wumpuse_implies_Small,
+Yumpus_implies_Luminous,
+Yumpus_implies_Jompus,
+Jompuses_implies_Orange,
+Jompuses_implies_Numpusesm,
+Numpus_implies_Earthy,
+Numpus_implies_Rompus,
+Rompus_implies_Sweet,
+Rompus_implies_Vumpus,
+Vumpus_implies_Bright,
+Vumpus_implies_Dumpus,
+Dumpus_implies_Small,
+Dumpuses_implies_Tumpuses,
+Tumpuses_implies_Cold,
+Tumpuses_implies_Impus,
+Polly_implies_Jompus]
+for r in relationships:
+    solver.add(r)
 
+# Fact:
+Polly_implies_Small = Implies(Polly, False)
+facts = [Polly_implies_Small]
+for f in facts:
+    solver.add(f)
+
+print(s.check(Polly_implies_Small))
+```
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Problem:
 %s
@@ -64,7 +103,7 @@ Question:
 
 
 INSTRUCTION_PROMPT = f"""
-You should write in the format as follows:
+You should write in the format as comment in python script as follows:
 Variables for properties: <the property variables you generate> \\ 
 Variables for entities: <the entities variables you generate> \\ 
 Relationships: <Relationships you generate> \\
