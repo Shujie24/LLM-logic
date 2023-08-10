@@ -26,7 +26,8 @@ def generate_program(dataset_list) -> list:
         response = openai.ChatCompletion.create(
         model='gpt-3.5-turbo',
         messages=[{"role": "user", "content": f"{FEW_SHOT_PROMPT} context: {context}, question: {question}"},
-        {"role": "system", "content": "Then execute this python z3 script. The answer printing in the result should be either A for True or B for False"}])
+        {"role": "system", "content": "Then execute this python z3 script. The answer printing in the result should be either A for True or B for False"}],
+        temperature = 0)
         return_dict = {}
         return_dict["id"] = id_
         return_dict["program"] = response["choices"][0]["message"]["content"]
