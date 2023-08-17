@@ -12,7 +12,14 @@ def main():
     openai.api_key = "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"
     logging.info(f"the current path is {os.getcwd()}")
     dataset_list = read_json(file_path)
-    program_list = generate_program(dataset_list)
+    program_list = []
+    for i, data in enumerate(dataset_list):
+        program = generate_program(dataset_list)
+        return_dict = {}
+        return_dict["id"] = id_
+        return_dict["program"] = response
+        return_dict["answer"] = answer
+    program_list.append()
     save_program(program_list)
     # print(program_list)
     answer_list = parse_and_execute_program(program_list)

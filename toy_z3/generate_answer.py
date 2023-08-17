@@ -1,20 +1,21 @@
 import openai
 import re
+ITERATION_NUM = 10
 
-def parse_and_execute_program(program_list) -> list:
-    answer_list = []
-    for i in range(len(program_list)):
-        prompt = f"""Execute this z3 python script, and give answer A for True, and B for False: {program_list[i]["program"]}"""
-        response = openai.ChatCompletion.create(
-        model='gpt-3.5-turbo',
-        messages=[{"role": "user", "content": prompt}])
-        return_dict = {}
-        return_dict["number"] = program_list[i]["id"]
-        return_dict["prediction"] = refine_answer(response["choices"][0]["message"]["content"])
-        return_dict["answer"] = program_list[i]["answer"]
-        print(response["choices"][0]["message"]["content"])
-        answer_list.append(return_dict)
-    return answer_list
+def parse_program(program_list) -> list:
+    pass
+
+def parse_and_execute_program(program: str) -> str:
+    prompt = f"""Execute this z3 python script, and give answer A for True, and B for False: {program}"""
+    response = openai.ChatCompletion.create(
+    model='gpt-3.5-turbo',
+    messages=[{"role": "user", "content": prompt}])
+    # return_dict = {}
+    # return_dict["number"] = program_list[i]["id"]
+    return refine_answer(response["choices"][0]["message"]["content"])
+    # return_dict["answer"] = program_list[i]["answer"]
+    # print(response["choices"][0]["message"]["content"])
+    # return return_dict
 
 def refine_answer(answer: str) -> str:
     A_pattern = r"[!@#%^&*()_+\-=[]{}|;':\",./<>?~`]*A[!@#%^&*()_+\-=[]{}|;':\",./<>?~`]*"

@@ -7,9 +7,22 @@ def read_json(filename):
     with open(filename, "r") as f:
         return json.load(f)
 
-def save_program(returned_program):
-    with open("toy_z3/file/program.json", "w") as f:
-         json.dump(returned_program, f, indent=2, ensure_ascii=False)
+# def save_program(returned_program):
+#     with open("toy_z3/file/program.json", "w") as f:
+#          json.dump(returned_program, f, indent=2, ensure_ascii=False)
+
+def save_program(new_data, filename="toy_z3/file/program.json"):
+    # Check if file exists and has content
+    if os.path.exists(filename) and os.path.getsize(filename) > 0:
+        with open(filename, 'r') as f:
+            data = json.load(f)
+    else:
+        data = []
+
+    data.append(new_data)
+
+    with open(filename, 'w') as f:
+        json.dump(data, f, indent=2)
 
 def save_answer(returned_answer):
     with open("toy_z3/file/answer.json", "w") as f:
