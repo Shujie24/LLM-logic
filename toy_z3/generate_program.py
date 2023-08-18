@@ -29,7 +29,14 @@ def generate_program(data: dict, num_iteration) -> str:
         user_prompt = PROMPT % (context, question)
         conversation.append(user_prompt)
         prompt = prepare_prompt(INSTRUCTION_PROMPT, conversation)
-        response = call_openai_api(prompt)
+        try:
+            response = call_openai_api(prompt)
+        except Exception as e:
+            if "Please reduce the length of the messages." in str(e):
+                conversation = conversation[2:]
+                response = call_openai_api(prompt)
+            else:
+                print(str(e))
         print(response)
         program_dict = {"id": id_, "context": context, "question": question, "program": response, "answer": answer}
         save_program(program_dict)
@@ -39,7 +46,6 @@ def generate_program(data: dict, num_iteration) -> str:
             return prediction
         else:
             conversation.append(f"There is error when using code: {response}, and the error message: {prediction}")
-            continue
     return 
     
 
@@ -64,7 +70,7 @@ def check_execution(code: str):
         return False, outputs
     outputs = "".join(f.getvalue().split()) # get rid of "\n"
     if outputs != "A" and outputs != "B":
-        return False, "Output format is not A or B" + outputs
+        return False, "Output format is not A or B: " + outputs
     else:
         return True, outputs
 
