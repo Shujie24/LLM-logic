@@ -34,8 +34,9 @@ class AnswerGenerator:
                 response = call_openai_api(prompt)
             except Exception as e:
                 if "Please reduce the length of the messages." in str(e):
-                    conversation = conversation[2:]
-                    response = call_openai_api(prompt, self.model_name)
+                    # conversation = conversation[2:]
+                    # response = call_openai_api(prompt, self.model_name)
+                    return
                 else:
                     raise e
             print(response)
