@@ -25,18 +25,20 @@ class AnswerGenerator:
         #   if not, add execute error message as assistant and in the loop again
         # 5. return the final answer(answer or null)
         conversation = []
+        total_tokens = 0
         for j in range(self.num_iteration):
             context, question, options, answer, id_ = self.data["context"], self.data["question"], self.data["options"], self.data["answer"], self.data["id"]
             user_prompt = PROMPT % (context, question)
             conversation.append(user_prompt)
             prompt = prepare_prompt(INSTRUCTION_PROMPT, conversation)
             try:
-                response = call_openai_api(prompt)
+                response, token_used = call_openai_api(prompt)
+                total_tokens += token_used
             except Exception as e:
                 if "Please reduce the length of the messages." in str(e):
                     # conversation = conversation[2:]
                     # response = call_openai_api(prompt, self.model_name)
-                    return
+                    return None, total_tokens
                 else:
                     raise e
             print(response)
@@ -45,10 +47,10 @@ class AnswerGenerator:
             response = self.parse_response(response)
             executable, prediction = self.check_execution(response)
             if executable:
-                return prediction
+                return prediction, total_tokens
             else:
                 conversation.append(f"There is error when using code: {response}, and the error message: {prediction}")
-        return 
+        return None, total_tokens
     
 
     def parse_response(self, response: str) -> str:

@@ -25,4 +25,5 @@ def call_openai_api(messages, model="gpt-3.5-turbo", temperature=0) -> str:
         model=model,
         messages=messages,
         temperature = temperature)
-    return response["choices"][0]["message"]["content"]
+    token_used = response["usage"]["total_tokens"]
+    return response["choices"][0]["message"]["content"], token_used

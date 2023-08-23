@@ -3,9 +3,9 @@ import os
 import logging
 import sys
 
-def read_json(filename):
+def read_json(filename, start, end):
     with open(filename, "r") as f:
-        return json.load(f)
+        return json.load(f)[start:end]
 
 # def save_program(returned_program):
 #     with open("toy_z3/file/program.json", "w") as f:
