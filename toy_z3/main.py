@@ -42,7 +42,7 @@ def main():
         few_shot_prompt,
         answer_save_path,
         program_save_path,
-    ) = parse_datase_str(dataset_name)
+    ) = parse_dataset_str(dataset_name)
 
     dataset_list = read_json(dataset_path, start, end)
     answer_list = []

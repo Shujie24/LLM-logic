@@ -16,7 +16,7 @@ def create_problem(dataset_name: str) -> Problem:
         raise Exception("Name is not defined")
 
 
-def parse_datase_str(dataset_name: str) -> Tuple[str, str, str, str]:
+def parse_dataset_str(dataset_name: str) -> Tuple[str, str, str, str]:
     problem = create_problem(dataset_name)
     dataset_path = problem.dataset_path
     few_shot_prompt = problem.prompt
