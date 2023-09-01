@@ -9,11 +9,6 @@ def read_json(filename, start, end):
         return json.load(f)[start:end]
 
 
-# def save_program(returned_program):
-#     with open("toy_z3/file/program.json", "w") as f:
-#          json.dump(returned_program, f, indent=2, ensure_ascii=False)
-
-
 def save_program(new_data, filename):
     # Check if file exists and has content
     if os.path.exists(filename) and os.path.getsize(filename) > 0:

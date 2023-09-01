@@ -1,5 +1,3 @@
-from prompt import PROMPT_PRONTOQA, INSTRUCTION_PROMPT
-import openai
 import logging
 import json
 from util import *
@@ -15,13 +13,17 @@ class AnswerGenerator:
         num_iteration,
         model_name,
         few_shot_prompt,
+        instruction_prompt,
         program_save_path,
+        choice,
     ):
         self.data = data
         self.num_iteration = num_iteration
         self.model_name = model_name
         self.few_shot_prompt = few_shot_prompt
+        self.instruction_prompt = instruction_prompt
         self.program_save_path = program_save_path
+        self.choice = choice
 
     def generate_answer(self) -> str:
         """Given the dataset, generate an executable z3 program by calling OpenAI API. Includes iterative process of error handling."""
@@ -45,13 +47,13 @@ class AnswerGenerator:
             )
             user_prompt = self.few_shot_prompt % (context, question)
             conversation.append(user_prompt)
-            prompt = prepare_prompt(INSTRUCTION_PROMPT, conversation)
+            prompt = prepare_prompt(self.instruction_prompt, conversation)
             try:
-                response, token_used = call_openai_api(prompt)
+                response, token_used = call_openai_api(prompt, self.model_name)
                 total_tokens += token_used
             except Exception as e:
                 if "Please reduce the length of the messages." in str(e):
-                    return None, total_tokens
+                    return (f"None, max token used", total_tokens)
                 else:
                     raise e
             print(response)
@@ -68,10 +70,10 @@ class AnswerGenerator:
             if executable:
                 return prediction, total_tokens
             else:
-                conversation.append(
-                    f"There is error when using code: {response}, and the error message: {prediction}"
-                )
-        return None, total_tokens
+                output = f"There is error when using code: {response}, and the error message: {prediction}"
+                print(output)
+                conversation.append(output)
+        return (f"None, {output}", total_tokens)
 
     def parse_response(self, response: str) -> str:
         """parse the response to an executable program"""
@@ -92,8 +94,8 @@ class AnswerGenerator:
             outputs = str(e)
             return False, outputs
         outputs = "".join(f.getvalue().split())  # get rid of "\n"
-        if outputs != "A" and outputs != "B":
-            return False, "Output format is not A or B: " + outputs
+        if outputs not in self.choice:
+            return False, f"Output format is not choices: {self.choice} : " + outputs
         else:
             return True, outputs
 

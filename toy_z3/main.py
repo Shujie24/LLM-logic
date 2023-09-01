@@ -17,7 +17,7 @@ def main():
         "--model_name",
         type=str,
         help="Model name of OpenAI API",
-        default="gpt-3.5-turbo",
+        default="gpt-3.5-turbo",  # or "gpt-4"
     )
     parser.add_argument(
         "--refinement_num_iteration",
@@ -40,8 +40,10 @@ def main():
     (
         dataset_path,
         few_shot_prompt,
+        instruction_prompt,
         answer_save_path,
         program_save_path,
+        choice,
     ) = parse_dataset_str(dataset_name)
 
     dataset_list = read_json(dataset_path, start, end)
@@ -53,14 +55,19 @@ def main():
             num_iteration,
             model_name,
             few_shot_prompt,
+            instruction_prompt,
             program_save_path,
+            choice,
         )
         prediction, token_used = answer_generator.generate_answer()
         total_token += token_used
         print(prediction)
         answer_dict = answer_generator.parse_answer_file(prediction)
         answer_list.append(answer_dict)
-    print(f"total tokens used is {total_token}")
+    print(f"Model name is {model_name}")
+    print(f"Dataset name is {dataset_name}")
+    print(f"Total number of samples is {end-start}")
+    print(f"Total tokens used is {total_token}")
     save_answer(answer_list, answer_save_path)
     evatuator = Evaluator(answer_list)
     evatuator.evaluation()
@@ -71,3 +78,4 @@ if __name__ == "__main__":
 
     # usage
     # python main.py  ProntoQA "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" 0 10
+    # python main.py  ProofWriter "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" 0 10
