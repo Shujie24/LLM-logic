@@ -1,0 +1,18 @@
+[submodule "process_data/FOLIO"]
+	path = process_data/FOLIO
+	url = https://github.com/Yale-LILY/FOLIO.git
+[submodule "process_data/prontoqa"]
+	path = process_data/prontoqa
+	url = https://github.com/asaparov/prontoqa.git
+[submodule "process_data/AR-LSAT"]
+	path = process_data/AR-LSAT
+	url = https://github.com/zhongwanjun/AR-LSAT.git
+[submodule "process_data/Natural_Language_Deduction_with_Incomplete_Information"]
+	path = process_data/Natural_Language_Deduction_with_Incomplete_Information
+	url = https://github.com/Zayne-sprague/Natural_Language_Deduction_with_Incomplete_Information.git
+[submodule "process_data/LeapOfThought"]
+	path = process_data/LeapOfThought
+	url = https://github.com/alontalmor/LeapOfThought.git
+[submodule "process_data/ConditionalQA"]
+	path = process_data/ConditionalQA
+	url = https://github.com/haitian-sun/ConditionalQA.git

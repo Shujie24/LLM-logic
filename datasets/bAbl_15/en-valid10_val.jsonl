@@ -1,0 +1,1942 @@
+[
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Mary travelled to the kitchen.",
+            "Fred is in the school.",
+            "Is Mary in the school?",
+            "Fred went back to the office.",
+            "Julie is either in the park or the office.",
+            "Is Mary in the cinema?",
+            "Fred is either in the school or the bedroom.",
+            "Julie journeyed to the bedroom.",
+            "Is Fred in the school?",
+            "Fred went to the kitchen.",
+            "Fred travelled to the cinema.",
+            "Is Fred in the cinema?",
+            "Bill is in the cinema.",
+            "Bill travelled to the bedroom.",
+            "Is Bill in the bedroom?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "1"
+            ],
+            [],
+            [],
+            [
+                "1"
+            ],
+            [],
+            [],
+            [
+                "7"
+            ],
+            [],
+            [],
+            [
+                "11"
+            ],
+            [],
+            [],
+            [
+                "14"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "maybe",
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "yes"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Julie went to the kitchen.",
+            "Julie moved to the school.",
+            "Is Julie in the school?",
+            "Julie is either in the office or the kitchen.",
+            "Julie went to the park.",
+            "Is Julie in the kitchen?",
+            "Mary is in the office.",
+            "Julie travelled to the kitchen.",
+            "Is Julie in the kitchen?",
+            "Julie is either in the cinema or the bedroom.",
+            "Bill is either in the office or the office.",
+            "Is Bill in the bedroom?",
+            "Fred is either in the school or the school.",
+            "Bill travelled to the kitchen.",
+            "Is Julie in the bedroom?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "11"
+            ],
+            [],
+            [],
+            [
+                "10"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "maybe"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Bill is in the cinema.",
+            "Fred is either in the cinema or the school.",
+            "Is Fred in the cinema?",
+            "Julie travelled to the school.",
+            "Bill went back to the park.",
+            "Is Bill in the park?",
+            "Fred moved to the kitchen.",
+            "Mary moved to the school.",
+            "Is Fred in the bedroom?",
+            "Julie is either in the park or the park.",
+            "Fred is either in the park or the office.",
+            "Is Mary in the bedroom?",
+            "Julie is in the school.",
+            "Mary went to the bedroom.",
+            "Is Julie in the kitchen?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "7"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "13"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "maybe",
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "no"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Mary moved to the office.",
+            "Mary is either in the kitchen or the cinema.",
+            "Is Mary in the kitchen?",
+            "Fred journeyed to the bedroom.",
+            "Fred is either in the kitchen or the park.",
+            "Is Fred in the park?",
+            "Fred is either in the office or the cinema.",
+            "Mary is in the office.",
+            "Is Mary in the school?",
+            "Mary is in the bedroom.",
+            "Fred went to the kitchen.",
+            "Is Mary in the bedroom?",
+            "Fred is in the school.",
+            "Mary moved to the park.",
+            "Is Mary in the park?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "10"
+            ],
+            [],
+            [],
+            [
+                "14"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "maybe",
+            "",
+            "",
+            "maybe",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "yes"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Fred went back to the school.",
+            "Bill is in the bedroom.",
+            "Is Fred in the school?",
+            "Bill is either in the school or the park.",
+            "Julie is either in the kitchen or the school.",
+            "Is Bill in the park?",
+            "Bill is in the bedroom.",
+            "Fred went back to the bedroom.",
+            "Is Bill in the kitchen?",
+            "Bill moved to the park.",
+            "Julie is in the office.",
+            "Is Julie in the office?",
+            "Fred is either in the office or the bedroom.",
+            "Fred is in the park.",
+            "Is Bill in the park?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "1"
+            ],
+            [],
+            [],
+            [
+                "4"
+            ],
+            [],
+            [],
+            [
+                "7"
+            ],
+            [],
+            [],
+            [
+                "11"
+            ],
+            [],
+            [],
+            [
+                "10"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "maybe",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "yes"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Bill went back to the kitchen.",
+            "Mary travelled to the school.",
+            "Is Mary in the school?",
+            "Bill is in the bedroom.",
+            "Mary moved to the kitchen.",
+            "Is Mary in the kitchen?",
+            "Fred is in the park.",
+            "Mary is either in the school or the bedroom.",
+            "Is Fred in the park?",
+            "Mary travelled to the school.",
+            "Julie moved to the kitchen.",
+            "Is Mary in the school?",
+            "Julie is in the cinema.",
+            "Mary is either in the cinema or the kitchen.",
+            "Is Mary in the cinema?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "7"
+            ],
+            [],
+            [],
+            [
+                "10"
+            ],
+            [],
+            [],
+            [
+                "14"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "maybe"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Mary is either in the park or the school.",
+            "Bill is either in the cinema or the cinema.",
+            "Is Bill in the school?",
+            "Mary went to the office.",
+            "Bill is in the park.",
+            "Is Mary in the office?",
+            "Fred is either in the school or the park.",
+            "Julie went back to the office.",
+            "Is Fred in the school?",
+            "Fred is either in the office or the office.",
+            "Bill went back to the kitchen.",
+            "Is Fred in the office?",
+            "Julie is in the bedroom.",
+            "Julie went to the office.",
+            "Is Julie in the office?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "4"
+            ],
+            [],
+            [],
+            [
+                "7"
+            ],
+            [],
+            [],
+            [
+                "10"
+            ],
+            [],
+            [],
+            [
+                "14"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "maybe",
+            "",
+            "",
+            "maybe",
+            "",
+            "",
+            "yes"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Fred is in the park.",
+            "Bill is in the kitchen.",
+            "Is Fred in the park?",
+            "Mary travelled to the cinema.",
+            "Bill went to the cinema.",
+            "Is Bill in the park?",
+            "Fred is in the kitchen.",
+            "Mary moved to the school.",
+            "Is Mary in the cinema?",
+            "Bill went to the park.",
+            "Fred is in the cinema.",
+            "Is Fred in the park?",
+            "Fred went to the park.",
+            "Mary is in the cinema.",
+            "Is Mary in the bedroom?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "1"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "11"
+            ],
+            [],
+            [],
+            [
+                "14"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "no"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Julie went to the school.",
+            "Julie is either in the bedroom or the office.",
+            "Is Julie in the kitchen?",
+            "Fred journeyed to the kitchen.",
+            "Bill is in the cinema.",
+            "Is Julie in the office?",
+            "Julie is in the bedroom.",
+            "Mary is either in the bedroom or the park.",
+            "Is Julie in the bedroom?",
+            "Mary is in the park.",
+            "Bill journeyed to the bedroom.",
+            "Is Julie in the bedroom?",
+            "Julie is either in the kitchen or the school.",
+            "Julie is either in the office or the cinema.",
+            "Is Bill in the kitchen?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "7"
+            ],
+            [],
+            [],
+            [
+                "7"
+            ],
+            [],
+            [],
+            [
+                "11"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "maybe",
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "no"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Bill is either in the bedroom or the kitchen.",
+            "Julie is either in the school or the school.",
+            "Is Julie in the cinema?",
+            "Bill journeyed to the bedroom.",
+            "Julie is in the office.",
+            "Is Julie in the office?",
+            "Julie is either in the park or the kitchen.",
+            "Bill is in the school.",
+            "Is Bill in the office?",
+            "Mary is in the office.",
+            "Mary went back to the bedroom.",
+            "Is Bill in the park?",
+            "Julie is either in the office or the school.",
+            "Bill went to the bedroom.",
+            "Is Bill in the office?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "14"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "no"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Fred went back to the park.",
+            "Fred is either in the cinema or the school.",
+            "Is Fred in the cinema?",
+            "Bill is either in the school or the kitchen.",
+            "Fred went to the kitchen.",
+            "Is Fred in the kitchen?",
+            "Mary moved to the bedroom.",
+            "Mary is either in the park or the office.",
+            "Is Mary in the park?",
+            "Mary went back to the bedroom.",
+            "Fred is in the bedroom.",
+            "Is Mary in the bedroom?",
+            "Julie went back to the park.",
+            "Mary is in the office.",
+            "Is Mary in the office?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "10"
+            ],
+            [],
+            [],
+            [
+                "14"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "maybe",
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "maybe",
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "yes"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Fred went back to the bedroom.",
+            "Fred is either in the office or the park.",
+            "Is Fred in the park?",
+            "Bill journeyed to the office.",
+            "Bill is in the bedroom.",
+            "Is Fred in the office?",
+            "Fred travelled to the park.",
+            "Julie travelled to the park.",
+            "Is Fred in the kitchen?",
+            "Fred is in the school.",
+            "Julie went to the bedroom.",
+            "Is Fred in the school?",
+            "Mary journeyed to the kitchen.",
+            "Julie travelled to the school.",
+            "Is Mary in the kitchen?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "7"
+            ],
+            [],
+            [],
+            [
+                "10"
+            ],
+            [],
+            [],
+            [
+                "13"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "maybe",
+            "",
+            "",
+            "maybe",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "yes"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Mary moved to the park.",
+            "Mary travelled to the cinema.",
+            "Is Mary in the school?",
+            "Julie is either in the school or the kitchen.",
+            "Bill is in the office.",
+            "Is Mary in the bedroom?",
+            "Mary is either in the kitchen or the park.",
+            "Julie is in the office.",
+            "Is Julie in the school?",
+            "Fred went back to the office.",
+            "Fred is either in the office or the kitchen.",
+            "Is Julie in the cinema?",
+            "Bill went back to the cinema.",
+            "Julie is either in the school or the office.",
+            "Is Bill in the office?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "13"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "no"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Julie travelled to the park.",
+            "Fred moved to the cinema.",
+            "Is Fred in the cinema?",
+            "Julie is either in the cinema or the park.",
+            "Bill is in the cinema.",
+            "Is Fred in the park?",
+            "Julie is in the school.",
+            "Mary travelled to the school.",
+            "Is Julie in the school?",
+            "Julie went to the kitchen.",
+            "Fred is in the bedroom.",
+            "Is Mary in the school?",
+            "Fred is either in the park or the office.",
+            "Mary is either in the park or the kitchen.",
+            "Is Fred in the office?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "7"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "13"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "maybe"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Julie went to the kitchen.",
+            "Bill journeyed to the park.",
+            "Is Bill in the school?",
+            "Mary moved to the cinema.",
+            "Fred is in the school.",
+            "Is Julie in the park?",
+            "Bill is in the cinema.",
+            "Bill journeyed to the office.",
+            "Is Fred in the cinema?",
+            "Julie went to the office.",
+            "Julie travelled to the cinema.",
+            "Is Julie in the cinema?",
+            "Fred moved to the bedroom.",
+            "Mary travelled to the park.",
+            "Is Bill in the cinema?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "1"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "11"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "no"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Mary went to the cinema.",
+            "Julie went back to the cinema.",
+            "Is Mary in the cinema?",
+            "Fred went to the kitchen.",
+            "Bill is in the school.",
+            "Is Bill in the school?",
+            "Julie journeyed to the kitchen.",
+            "Fred is either in the cinema or the park.",
+            "Is Julie in the bedroom?",
+            "Fred travelled to the office.",
+            "Bill went to the cinema.",
+            "Is Julie in the kitchen?",
+            "Julie is in the bedroom.",
+            "Fred is in the school.",
+            "Is Julie in the bedroom?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "1"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "7"
+            ],
+            [],
+            [],
+            [
+                "7"
+            ],
+            [],
+            [],
+            [
+                "13"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "yes"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Mary is either in the park or the office.",
+            "Mary is in the school.",
+            "Is Mary in the school?",
+            "Bill went to the office.",
+            "Bill travelled to the bedroom.",
+            "Is Bill in the bedroom?",
+            "Julie is in the park.",
+            "Julie is in the office.",
+            "Is Bill in the office?",
+            "Julie went to the bedroom.",
+            "Mary is in the bedroom.",
+            "Is Julie in the school?",
+            "Bill travelled to the kitchen.",
+            "Mary travelled to the cinema.",
+            "Is Julie in the bedroom?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "10"
+            ],
+            [],
+            [],
+            [
+                "10"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "yes"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Fred moved to the bedroom.",
+            "Julie is in the school.",
+            "Is Fred in the office?",
+            "Fred is in the school.",
+            "Mary travelled to the kitchen.",
+            "Is Julie in the school?",
+            "Mary is in the office.",
+            "Fred moved to the bedroom.",
+            "Is Fred in the bedroom?",
+            "Bill is either in the cinema or the bedroom.",
+            "Fred is in the school.",
+            "Is Fred in the office?",
+            "Fred is in the bedroom.",
+            "Fred is either in the kitchen or the office.",
+            "Is Bill in the kitchen?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "1"
+            ],
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "11"
+            ],
+            [],
+            [],
+            [
+                "10"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "no"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Mary is either in the cinema or the park.",
+            "Fred moved to the bedroom.",
+            "Is Mary in the school?",
+            "Bill is in the office.",
+            "Mary is in the school.",
+            "Is Mary in the kitchen?",
+            "Fred is in the park.",
+            "Fred is either in the kitchen or the cinema.",
+            "Is Fred in the bedroom?",
+            "Bill is either in the kitchen or the kitchen.",
+            "Fred moved to the bedroom.",
+            "Is Mary in the kitchen?",
+            "Mary journeyed to the park.",
+            "Julie went back to the cinema.",
+            "Is Fred in the bedroom?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "1"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "11"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "yes"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Bill moved to the office.",
+            "Bill journeyed to the cinema.",
+            "Is Bill in the cinema?",
+            "Julie is in the bedroom.",
+            "Mary is either in the kitchen or the kitchen.",
+            "Is Mary in the kitchen?",
+            "Julie travelled to the cinema.",
+            "Fred moved to the kitchen.",
+            "Is Julie in the park?",
+            "Fred is either in the school or the office.",
+            "Fred is in the cinema.",
+            "Is Mary in the bedroom?",
+            "Fred travelled to the school.",
+            "Fred went to the park.",
+            "Is Fred in the park?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "7"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "14"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "yes",
+            "",
+            "",
+            "maybe",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "no",
+            "",
+            "",
+            "yes"
+        ]
+    }
+]

@@ -1,0 +1,1590 @@
+[
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The box is bigger than the box of chocolates.",
+            "The box of chocolates is bigger than the chocolate.",
+            "The suitcase is bigger than the chocolate.",
+            "The box of chocolates fits inside the container.",
+            "The box of chocolates is bigger than the chocolate.",
+            "Does the box fit in the chocolate?",
+            "Is the chocolate bigger than the box?",
+            "Is the chocolate bigger than the box?",
+            "Is the box bigger than the chocolate?",
+            "Is the chocolate bigger than the box?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "5",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "5",
+                "1"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "no"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The box fits inside the suitcase.",
+            "The box fits inside the container.",
+            "The chest is bigger than the box.",
+            "The container is bigger than the box of chocolates.",
+            "The box of chocolates is bigger than the chocolate.",
+            "Does the container fit in the chocolate?",
+            "Is the container bigger than the chocolate?",
+            "Is the container bigger than the chocolate?",
+            "Does the chocolate fit in the container?",
+            "Is the chocolate bigger than the container?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "5",
+                "4"
+            ],
+            [
+                "4",
+                "5"
+            ],
+            [
+                "4",
+                "5"
+            ],
+            [
+                "4",
+                "5"
+            ],
+            [
+                "5",
+                "4"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "no"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The box of chocolates is bigger than the chocolate.",
+            "The chocolate fits inside the container.",
+            "The container is bigger than the chest.",
+            "The chest fits inside the suitcase.",
+            "The container is bigger than the box.",
+            "The container is bigger than the box of chocolates.",
+            "The box fits inside the suitcase.",
+            "The box fits inside the chest.",
+            "The box of chocolates fits inside the suitcase.",
+            "The chocolate fits inside the box of chocolates.",
+            "Does the container fit in the box?",
+            "Is the container bigger than the chocolate?",
+            "Does the container fit in the box?",
+            "Does the container fit in the box?",
+            "Does the chocolate fit in the suitcase?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "8",
+                "3"
+            ],
+            [
+                "6",
+                "1"
+            ],
+            [
+                "8",
+                "3"
+            ],
+            [
+                "8",
+                "3"
+            ],
+            [
+                "9",
+                "1"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "no",
+            "yes",
+            "no",
+            "no",
+            "yes"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The suitcase is bigger than the box of chocolates.",
+            "The box of chocolates fits inside the suitcase.",
+            "The chocolate fits inside the chest.",
+            "The box is bigger than the box of chocolates.",
+            "The chest is bigger than the chocolate.",
+            "The box of chocolates fits inside the suitcase.",
+            "The box is bigger than the box of chocolates.",
+            "The chest is bigger than the container.",
+            "The suitcase is bigger than the box.",
+            "The chocolate fits inside the container.",
+            "Does the chest fit in the chocolate?",
+            "Is the chest bigger than the chocolate?",
+            "Does the box of chocolates fit in the suitcase?",
+            "Is the chocolate bigger than the chest?",
+            "Is the chest bigger than the chocolate?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "10",
+                "8"
+            ],
+            [
+                "8",
+                "10"
+            ],
+            [
+                "9",
+                "4"
+            ],
+            [
+                "10",
+                "8"
+            ],
+            [
+                "8",
+                "10"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "no",
+            "yes",
+            "yes",
+            "no",
+            "yes"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The suitcase is bigger than the chocolate.",
+            "The chest is bigger than the chocolate.",
+            "The container fits inside the chest.",
+            "The chocolate fits inside the box.",
+            "The box fits inside the suitcase.",
+            "Is the chocolate bigger than the suitcase?",
+            "Does the chocolate fit in the suitcase?",
+            "Is the suitcase bigger than the chocolate?",
+            "Is the chocolate bigger than the suitcase?",
+            "Is the suitcase bigger than the chocolate?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "4",
+                "5"
+            ],
+            [
+                "5",
+                "4"
+            ],
+            [
+                "5",
+                "4"
+            ],
+            [
+                "4",
+                "5"
+            ],
+            [
+                "5",
+                "4"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "no",
+            "yes",
+            "yes",
+            "no",
+            "yes"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The box of chocolates fits inside the container.",
+            "The box is bigger than the box of chocolates.",
+            "The container is bigger than the chocolate.",
+            "The box is bigger than the chocolate.",
+            "The box of chocolates fits inside the container.",
+            "The suitcase is bigger than the container.",
+            "The box fits inside the container.",
+            "The container is bigger than the chest.",
+            "The chest fits inside the container.",
+            "The container is bigger than the chocolate.",
+            "Does the box of chocolates fit in the container?",
+            "Is the suitcase bigger than the box of chocolates?",
+            "Is the container bigger than the box of chocolates?",
+            "Does the box of chocolates fit in the suitcase?",
+            "Is the container bigger than the box of chocolates?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "7",
+                "2"
+            ],
+            [
+                "6",
+                "1"
+            ],
+            [
+                "7",
+                "2"
+            ],
+            [
+                "6",
+                "1"
+            ],
+            [
+                "7",
+                "2"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The box fits inside the suitcase.",
+            "The suitcase is bigger than the chest.",
+            "The chocolate fits inside the box.",
+            "The container is bigger than the box of chocolates.",
+            "The chocolate fits inside the box.",
+            "Does the suitcase fit in the chocolate?",
+            "Is the chocolate bigger than the suitcase?",
+            "Is the chocolate bigger than the suitcase?",
+            "Is the chocolate bigger than the suitcase?",
+            "Is the suitcase bigger than the chocolate?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "5",
+                "1"
+            ],
+            [
+                "5",
+                "1"
+            ],
+            [
+                "5",
+                "1"
+            ],
+            [
+                "5",
+                "1"
+            ],
+            [
+                "1",
+                "3"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The chest is bigger than the chocolate.",
+            "The chocolate fits inside the box.",
+            "The chest fits inside the container.",
+            "The container fits inside the suitcase.",
+            "The box is bigger than the box of chocolates.",
+            "Does the container fit in the chocolate?",
+            "Does the suitcase fit in the chest?",
+            "Is the chocolate bigger than the container?",
+            "Is the suitcase bigger than the chest?",
+            "Is the chest bigger than the suitcase?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "1",
+                "3"
+            ],
+            [
+                "3",
+                "4"
+            ],
+            [
+                "1",
+                "3"
+            ],
+            [
+                "4",
+                "3"
+            ],
+            [
+                "3",
+                "4"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "no"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The suitcase is bigger than the box.",
+            "The box fits inside the chest.",
+            "The container is bigger than the chocolate.",
+            "The chocolate fits inside the suitcase.",
+            "The box is bigger than the container.",
+            "Is the chocolate bigger than the box?",
+            "Is the box bigger than the chocolate?",
+            "Is the chocolate bigger than the box?",
+            "Does the suitcase fit in the container?",
+            "Is the container bigger than the suitcase?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "3",
+                "5"
+            ],
+            [
+                "5",
+                "3"
+            ],
+            [
+                "3",
+                "5"
+            ],
+            [
+                "5",
+                "1"
+            ],
+            [
+                "5",
+                "1"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "no",
+            "yes",
+            "no",
+            "no",
+            "no"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The chocolate fits inside the container.",
+            "The suitcase fits inside the container.",
+            "The box fits inside the chest.",
+            "The box fits inside the container.",
+            "The box fits inside the suitcase.",
+            "Does the box fit in the container?",
+            "Does the container fit in the box?",
+            "Does the box fit in the container?",
+            "Does the container fit in the box?",
+            "Is the box bigger than the container?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "2",
+                "5"
+            ],
+            [
+                "5",
+                "2"
+            ],
+            [
+                "2",
+                "5"
+            ],
+            [
+                "5",
+                "2"
+            ],
+            [
+                "5",
+                "2"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "yes",
+            "no",
+            "yes",
+            "no",
+            "no"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The chocolate fits inside the container.",
+            "The suitcase is bigger than the chest.",
+            "The box of chocolates is bigger than the chocolate.",
+            "The box fits inside the suitcase.",
+            "The box of chocolates fits inside the chest.",
+            "Is the chocolate bigger than the chest?",
+            "Is the suitcase bigger than the box of chocolates?",
+            "Is the chest bigger than the chocolate?",
+            "Is the chocolate bigger than the chest?",
+            "Does the suitcase fit in the box of chocolates?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "3",
+                "5"
+            ],
+            [
+                "2",
+                "5"
+            ],
+            [
+                "5",
+                "3"
+            ],
+            [
+                "3",
+                "5"
+            ],
+            [
+                "5",
+                "2"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "no",
+            "yes",
+            "yes",
+            "no",
+            "no"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The suitcase is bigger than the chest.",
+            "The chocolate fits inside the box.",
+            "The box of chocolates fits inside the suitcase.",
+            "The chest is bigger than the container.",
+            "The chest is bigger than the box of chocolates.",
+            "Is the box of chocolates bigger than the suitcase?",
+            "Does the container fit in the suitcase?",
+            "Is the suitcase bigger than the container?",
+            "Is the suitcase bigger than the container?",
+            "Is the box of chocolates bigger than the suitcase?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "5",
+                "1"
+            ],
+            [
+                "1",
+                "4"
+            ],
+            [
+                "1",
+                "4"
+            ],
+            [
+                "1",
+                "4"
+            ],
+            [
+                "5",
+                "1"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "no"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The chest is bigger than the suitcase.",
+            "The suitcase fits inside the box.",
+            "The chocolate fits inside the box.",
+            "The box of chocolates fits inside the box.",
+            "The box is bigger than the container.",
+            "The container fits inside the box.",
+            "The container is bigger than the box of chocolates.",
+            "The chocolate fits inside the chest.",
+            "The chocolate fits inside the suitcase.",
+            "The suitcase fits inside the chest.",
+            "Is the chocolate bigger than the chest?",
+            "Does the chest fit in the chocolate?",
+            "Does the chest fit in the chocolate?",
+            "Is the chocolate bigger than the chest?",
+            "Does the box fit in the box of chocolates?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "9",
+                "1"
+            ],
+            [
+                "9",
+                "1"
+            ],
+            [
+                "9",
+                "1"
+            ],
+            [
+                "9",
+                "1"
+            ],
+            [
+                "7",
+                "5"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The chest fits inside the suitcase.",
+            "The box of chocolates fits inside the suitcase.",
+            "The suitcase fits inside the box.",
+            "The chocolate fits inside the box.",
+            "The chest fits inside the box.",
+            "Is the box bigger than the chest?",
+            "Does the chest fit in the box?",
+            "Does the chest fit in the box?",
+            "Does the chest fit in the box?",
+            "Is the box bigger than the chest?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "3",
+                "1"
+            ],
+            [
+                "3",
+                "1"
+            ],
+            [
+                "3",
+                "1"
+            ],
+            [
+                "3",
+                "1"
+            ],
+            [
+                "3",
+                "1"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The chest fits inside the container.",
+            "The suitcase is bigger than the chocolate.",
+            "The container is bigger than the box.",
+            "The box of chocolates fits inside the container.",
+            "The box fits inside the container.",
+            "The container is bigger than the chest.",
+            "The chocolate fits inside the container.",
+            "The suitcase fits inside the container.",
+            "The suitcase fits inside the container.",
+            "The container is bigger than the suitcase.",
+            "Is the container bigger than the chocolate?",
+            "Is the container bigger than the chocolate?",
+            "Does the chocolate fit in the container?",
+            "Does the chocolate fit in the container?",
+            "Does the chocolate fit in the container?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "10",
+                "2"
+            ],
+            [
+                "10",
+                "2"
+            ],
+            [
+                "10",
+                "2"
+            ],
+            [
+                "8",
+                "2"
+            ],
+            [
+                "10",
+                "2"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The box is bigger than the box of chocolates.",
+            "The chocolate fits inside the box.",
+            "The container is bigger than the suitcase.",
+            "The chest is bigger than the box of chocolates.",
+            "The box fits inside the chest.",
+            "Does the box of chocolates fit in the chest?",
+            "Does the box of chocolates fit in the chest?",
+            "Does the box of chocolates fit in the chest?",
+            "Does the box of chocolates fit in the chest?",
+            "Is the chest bigger than the box of chocolates?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "5",
+                "1"
+            ],
+            [
+                "5",
+                "1"
+            ],
+            [
+                "5",
+                "1"
+            ],
+            [
+                "5",
+                "1"
+            ],
+            [
+                "5",
+                "1"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The box fits inside the suitcase.",
+            "The box is bigger than the chocolate.",
+            "The container fits inside the suitcase.",
+            "The box fits inside the chest.",
+            "The suitcase is bigger than the box.",
+            "Does the suitcase fit in the chocolate?",
+            "Is the chocolate bigger than the suitcase?",
+            "Is the chocolate bigger than the suitcase?",
+            "Does the suitcase fit in the chocolate?",
+            "Is the chocolate bigger than the suitcase?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The box is bigger than the box of chocolates.",
+            "The chest is bigger than the container.",
+            "The suitcase fits inside the chest.",
+            "The container fits inside the suitcase.",
+            "The container is bigger than the box of chocolates.",
+            "Does the chest fit in the box of chocolates?",
+            "Is the box of chocolates bigger than the chest?",
+            "Does the chest fit in the container?",
+            "Is the box of chocolates bigger than the chest?",
+            "Is the chest bigger than the container?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "5",
+                "2"
+            ],
+            [
+                "5",
+                "2"
+            ],
+            [
+                "4",
+                "3"
+            ],
+            [
+                "5",
+                "2"
+            ],
+            [
+                "3",
+                "4"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The box is bigger than the chest.",
+            "The chest fits inside the box.",
+            "The chocolate fits inside the chest.",
+            "The chest fits inside the container.",
+            "The box fits inside the container.",
+            "Is the chocolate bigger than the box?",
+            "Is the container bigger than the chest?",
+            "Is the chocolate bigger than the box?",
+            "Does the chest fit in the container?",
+            "Does the chest fit in the container?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [
+                "3",
+                "1"
+            ],
+            [
+                "5",
+                "1"
+            ],
+            [
+                "3",
+                "1"
+            ],
+            [
+                "5",
+                "1"
+            ],
+            [
+                "5",
+                "1"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "no",
+            "yes",
+            "no",
+            "yes",
+            "yes"
+        ]
+    }
+]

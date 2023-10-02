@@ -1,0 +1,1034 @@
+[
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The triangle is above the pink rectangle.",
+            "The blue square is to the left of the triangle.",
+            "Is the pink rectangle to the right of the blue square?",
+            "Is the blue square below the pink rectangle?",
+            "Is the blue square to the right of the pink rectangle?",
+            "Is the blue square below the pink rectangle?",
+            "Is the blue square below the pink rectangle?",
+            "Is the pink rectangle to the left of the blue square?",
+            "Is the blue square to the left of the pink rectangle?",
+            "Is the pink rectangle to the right of the blue square?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "yes"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The triangle is below the red square.",
+            "The triangle is to the left of the blue square.",
+            "Is the red square to the right of the blue square?",
+            "Is the blue square below the red square?",
+            "Is the red square below the blue square?",
+            "Is the blue square above the red square?",
+            "Is the red square to the right of the blue square?",
+            "Is the red square to the right of the blue square?",
+            "Is the red square to the left of the blue square?",
+            "Is the red square below the blue square?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "1",
+                "2"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "no",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "no"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The red sphere is to the right of the blue square.",
+            "The blue square is below the yellow square.",
+            "Is the red sphere above the yellow square?",
+            "Is the red sphere above the yellow square?",
+            "Is the yellow square below the red sphere?",
+            "Is the yellow square to the left of the red sphere?",
+            "Is the red sphere to the right of the yellow square?",
+            "Is the red sphere below the yellow square?",
+            "Is the red sphere above the yellow square?",
+            "Is the red sphere below the yellow square?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "1",
+                "2"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "yes"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The triangle is to the right of the yellow square.",
+            "The pink rectangle is above the triangle.",
+            "Is the yellow square to the left of the pink rectangle?",
+            "Is the pink rectangle above the yellow square?",
+            "Is the pink rectangle to the right of the yellow square?",
+            "Is the yellow square above the pink rectangle?",
+            "Is the pink rectangle below the yellow square?",
+            "Is the pink rectangle to the left of the yellow square?",
+            "Is the yellow square below the pink rectangle?",
+            "Is the yellow square above the pink rectangle?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "1",
+                "2"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "no"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The red sphere is below the pink rectangle.",
+            "The red sphere is to the left of the red square.",
+            "Is the red square to the left of the pink rectangle?",
+            "Is the pink rectangle above the red square?",
+            "Is the pink rectangle to the left of the red square?",
+            "Is the red square below the pink rectangle?",
+            "Is the pink rectangle to the left of the red square?",
+            "Is the red square to the right of the pink rectangle?",
+            "Is the pink rectangle above the red square?",
+            "Is the red square above the pink rectangle?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "2",
+                "1"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The red sphere is above the pink rectangle.",
+            "The red sphere is to the right of the blue square.",
+            "Is the pink rectangle to the left of the blue square?",
+            "Is the pink rectangle below the blue square?",
+            "Is the blue square above the pink rectangle?",
+            "Is the blue square to the left of the pink rectangle?",
+            "Is the pink rectangle to the right of the blue square?",
+            "Is the pink rectangle below the blue square?",
+            "Is the blue square above the pink rectangle?",
+            "Is the blue square above the pink rectangle?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "yes"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The triangle is to the left of the red sphere.",
+            "The yellow square is to the left of the triangle.",
+            "Is the red sphere to the right of the yellow square?",
+            "Is the yellow square above the red sphere?",
+            "Is the yellow square below the red sphere?",
+            "Is the yellow square to the left of the red sphere?",
+            "Is the yellow square to the left of the red sphere?",
+            "Is the red sphere to the right of the yellow square?",
+            "Is the yellow square to the left of the red sphere?",
+            "Is the red sphere above the yellow square?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "yes",
+            "no",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "yes",
+            "no"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The red square is below the blue square.",
+            "The blue square is to the right of the red sphere.",
+            "Is the red sphere above the red square?",
+            "Is the red square above the red sphere?",
+            "Is the red sphere above the red square?",
+            "Is the red sphere to the right of the red square?",
+            "Is the red square above the red sphere?",
+            "Is the red square above the red sphere?",
+            "Is the red square to the right of the red sphere?",
+            "Is the red sphere below the red square?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "2",
+                "1"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "yes",
+            "no",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "no"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The red square is to the right of the blue square.",
+            "The yellow square is to the right of the red square.",
+            "Is the blue square to the left of the yellow square?",
+            "Is the yellow square to the right of the blue square?",
+            "Is the blue square below the yellow square?",
+            "Is the yellow square to the right of the blue square?",
+            "Is the blue square to the left of the yellow square?",
+            "Is the yellow square above the blue square?",
+            "Is the blue square above the yellow square?",
+            "Is the blue square to the left of the yellow square?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "1",
+                "2"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "yes",
+            "yes",
+            "no",
+            "yes",
+            "yes",
+            "no",
+            "no",
+            "yes"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The pink rectangle is above the blue square.",
+            "The yellow square is above the pink rectangle.",
+            "Is the yellow square to the left of the blue square?",
+            "Is the blue square below the yellow square?",
+            "Is the blue square to the right of the yellow square?",
+            "Is the yellow square to the right of the blue square?",
+            "Is the blue square above the yellow square?",
+            "Is the blue square to the left of the yellow square?",
+            "Is the yellow square below the blue square?",
+            "Is the blue square above the yellow square?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "no",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no",
+            "no"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The blue square is above the pink rectangle.",
+            "The yellow square is below the pink rectangle.",
+            "Is the yellow square below the blue square?",
+            "Is the yellow square to the left of the blue square?",
+            "Is the yellow square to the left of the blue square?",
+            "Is the blue square to the left of the yellow square?",
+            "Is the yellow square above the blue square?",
+            "Is the yellow square below the blue square?",
+            "Is the blue square to the right of the yellow square?",
+            "Is the blue square to the right of the yellow square?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ],
+            [
+                "1",
+                "2"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "yes",
+            "no",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "no",
+            "no"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "text": [
+            "The yellow square is to the right of the blue square.",
+            "The yellow square is below the red sphere.",
+            "Is the red sphere below the blue square?",
+            "Is the red sphere below the blue square?",
+            "Is the red sphere to the left of the blue square?",
+            "Is the red sphere to the right of the blue square?",
+            "Is the red sphere above the blue square?",
+            "Is the red sphere above the blue square?",
+            "Is the red sphere below the blue square?",
+            "Is the blue square above the red sphere?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "2",
+                "1"
+            ],
+            [
+                "1",
+                "2"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "no",
+            "no",
+            "no",
+            "yes",
+            "yes",
+            "yes",
+            "no",
+            "no"
+        ]
+    }
+]

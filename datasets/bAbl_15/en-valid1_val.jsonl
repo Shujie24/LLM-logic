@@ -1,0 +1,1942 @@
+[
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Daniel journeyed to the kitchen.",
+            "Daniel journeyed to the bedroom.",
+            "Where is Daniel?",
+            "Sandra moved to the garden.",
+            "Sandra went back to the kitchen.",
+            "Where is Sandra?",
+            "Daniel travelled to the office.",
+            "Sandra went back to the hallway.",
+            "Where is Sandra?",
+            "Daniel journeyed to the hallway.",
+            "Daniel went to the bathroom.",
+            "Where is Sandra?",
+            "John travelled to the garden.",
+            "Daniel moved to the hallway.",
+            "Where is Daniel?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "14"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "bedroom",
+            "",
+            "",
+            "kitchen",
+            "",
+            "",
+            "hallway",
+            "",
+            "",
+            "hallway",
+            "",
+            "",
+            "hallway"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "John went back to the bathroom.",
+            "Mary travelled to the bathroom.",
+            "Where is John?",
+            "Mary went to the garden.",
+            "Sandra moved to the garden.",
+            "Where is John?",
+            "John went to the kitchen.",
+            "Daniel moved to the bathroom.",
+            "Where is John?",
+            "Daniel went back to the hallway.",
+            "Mary went to the kitchen.",
+            "Where is Mary?",
+            "Daniel went to the garden.",
+            "Daniel travelled to the hallway.",
+            "Where is Daniel?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "1"
+            ],
+            [],
+            [],
+            [
+                "1"
+            ],
+            [],
+            [],
+            [
+                "7"
+            ],
+            [],
+            [],
+            [
+                "11"
+            ],
+            [],
+            [],
+            [
+                "14"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "bathroom",
+            "",
+            "",
+            "bathroom",
+            "",
+            "",
+            "kitchen",
+            "",
+            "",
+            "kitchen",
+            "",
+            "",
+            "hallway"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Mary went back to the bedroom.",
+            "Mary travelled to the bathroom.",
+            "Where is Mary?",
+            "John travelled to the office.",
+            "Mary travelled to the bedroom.",
+            "Where is Mary?",
+            "John journeyed to the kitchen.",
+            "John moved to the hallway.",
+            "Where is Mary?",
+            "Daniel moved to the hallway.",
+            "Mary went back to the garden.",
+            "Where is Mary?",
+            "Daniel went back to the office.",
+            "Daniel travelled to the kitchen.",
+            "Where is Daniel?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "11"
+            ],
+            [],
+            [],
+            [
+                "14"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "bathroom",
+            "",
+            "",
+            "bedroom",
+            "",
+            "",
+            "bedroom",
+            "",
+            "",
+            "garden",
+            "",
+            "",
+            "kitchen"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Daniel moved to the garden.",
+            "Mary went back to the bathroom.",
+            "Where is Daniel?",
+            "Daniel travelled to the kitchen.",
+            "Sandra went to the kitchen.",
+            "Where is Sandra?",
+            "Daniel journeyed to the garden.",
+            "Mary journeyed to the kitchen.",
+            "Where is Mary?",
+            "Mary moved to the hallway.",
+            "John went back to the bedroom.",
+            "Where is Mary?",
+            "John moved to the office.",
+            "John travelled to the bathroom.",
+            "Where is Mary?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "1"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "10"
+            ],
+            [],
+            [],
+            [
+                "10"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "garden",
+            "",
+            "",
+            "kitchen",
+            "",
+            "",
+            "kitchen",
+            "",
+            "",
+            "hallway",
+            "",
+            "",
+            "hallway"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "John went to the office.",
+            "Daniel journeyed to the kitchen.",
+            "Where is Daniel?",
+            "John travelled to the bedroom.",
+            "John moved to the garden.",
+            "Where is Daniel?",
+            "Daniel journeyed to the bathroom.",
+            "John journeyed to the bedroom.",
+            "Where is John?",
+            "Sandra journeyed to the kitchen.",
+            "Mary moved to the garden.",
+            "Where is John?",
+            "Sandra journeyed to the bathroom.",
+            "Sandra went back to the bedroom.",
+            "Where is Sandra?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "14"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "kitchen",
+            "",
+            "",
+            "kitchen",
+            "",
+            "",
+            "bedroom",
+            "",
+            "",
+            "bedroom",
+            "",
+            "",
+            "bedroom"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Daniel travelled to the kitchen.",
+            "Daniel journeyed to the garden.",
+            "Where is Daniel?",
+            "John journeyed to the office.",
+            "John travelled to the garden.",
+            "Where is Daniel?",
+            "Daniel moved to the office.",
+            "John went to the hallway.",
+            "Where is John?",
+            "John moved to the office.",
+            "Daniel journeyed to the kitchen.",
+            "Where is John?",
+            "Daniel went to the garden.",
+            "John went back to the bathroom.",
+            "Where is Daniel?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "10"
+            ],
+            [],
+            [],
+            [
+                "13"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "garden",
+            "",
+            "",
+            "garden",
+            "",
+            "",
+            "hallway",
+            "",
+            "",
+            "office",
+            "",
+            "",
+            "garden"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Mary went to the bathroom.",
+            "John went to the kitchen.",
+            "Where is John?",
+            "Daniel moved to the office.",
+            "Daniel moved to the bathroom.",
+            "Where is Daniel?",
+            "Sandra travelled to the bathroom.",
+            "Mary travelled to the kitchen.",
+            "Where is John?",
+            "Mary went to the garden.",
+            "Sandra moved to the bedroom.",
+            "Where is Mary?",
+            "Sandra journeyed to the kitchen.",
+            "Daniel travelled to the garden.",
+            "Where is Sandra?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "10"
+            ],
+            [],
+            [],
+            [
+                "13"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "kitchen",
+            "",
+            "",
+            "bathroom",
+            "",
+            "",
+            "kitchen",
+            "",
+            "",
+            "garden",
+            "",
+            "",
+            "kitchen"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "John journeyed to the kitchen.",
+            "John journeyed to the garden.",
+            "Where is John?",
+            "Mary went back to the bathroom.",
+            "Mary moved to the garden.",
+            "Where is Mary?",
+            "Daniel travelled to the bedroom.",
+            "John moved to the kitchen.",
+            "Where is Mary?",
+            "John journeyed to the hallway.",
+            "Mary went back to the bathroom.",
+            "Where is Mary?",
+            "John journeyed to the bathroom.",
+            "Sandra moved to the kitchen.",
+            "Where is Mary?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "11"
+            ],
+            [],
+            [],
+            [
+                "11"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "garden",
+            "",
+            "",
+            "garden",
+            "",
+            "",
+            "garden",
+            "",
+            "",
+            "bathroom",
+            "",
+            "",
+            "bathroom"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "John went back to the bedroom.",
+            "John moved to the kitchen.",
+            "Where is John?",
+            "John journeyed to the garden.",
+            "Mary went back to the hallway.",
+            "Where is John?",
+            "Daniel went back to the bedroom.",
+            "John went to the bedroom.",
+            "Where is John?",
+            "Sandra travelled to the garden.",
+            "Daniel went back to the office.",
+            "Where is John?",
+            "Mary went back to the bedroom.",
+            "Daniel journeyed to the kitchen.",
+            "Where is Daniel?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "4"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "14"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "kitchen",
+            "",
+            "",
+            "garden",
+            "",
+            "",
+            "bedroom",
+            "",
+            "",
+            "bedroom",
+            "",
+            "",
+            "kitchen"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Mary went to the garden.",
+            "Daniel journeyed to the bathroom.",
+            "Where is Mary?",
+            "John went to the office.",
+            "Mary moved to the hallway.",
+            "Where is Daniel?",
+            "John went to the bathroom.",
+            "Daniel moved to the kitchen.",
+            "Where is John?",
+            "John went to the kitchen.",
+            "Daniel went to the bedroom.",
+            "Where is Mary?",
+            "Mary went to the kitchen.",
+            "Sandra journeyed to the garden.",
+            "Where is Sandra?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "1"
+            ],
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "7"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "14"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "garden",
+            "",
+            "",
+            "bathroom",
+            "",
+            "",
+            "bathroom",
+            "",
+            "",
+            "hallway",
+            "",
+            "",
+            "garden"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "John went to the office.",
+            "Mary journeyed to the garden.",
+            "Where is Mary?",
+            "John went to the garden.",
+            "John journeyed to the hallway.",
+            "Where is John?",
+            "Sandra went to the hallway.",
+            "John went to the bedroom.",
+            "Where is Mary?",
+            "Sandra moved to the bedroom.",
+            "Mary travelled to the hallway.",
+            "Where is John?",
+            "John travelled to the garden.",
+            "Daniel went back to the bedroom.",
+            "Where is Sandra?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "10"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "garden",
+            "",
+            "",
+            "hallway",
+            "",
+            "",
+            "garden",
+            "",
+            "",
+            "bedroom",
+            "",
+            "",
+            "bedroom"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Daniel journeyed to the kitchen.",
+            "John went back to the kitchen.",
+            "Where is John?",
+            "Mary went to the hallway.",
+            "John moved to the office.",
+            "Where is John?",
+            "Daniel travelled to the hallway.",
+            "Mary went to the garden.",
+            "Where is John?",
+            "Mary went back to the office.",
+            "Mary went to the garden.",
+            "Where is Mary?",
+            "Sandra moved to the bathroom.",
+            "Daniel moved to the office.",
+            "Where is Mary?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "11"
+            ],
+            [],
+            [],
+            [
+                "11"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "kitchen",
+            "",
+            "",
+            "office",
+            "",
+            "",
+            "office",
+            "",
+            "",
+            "garden",
+            "",
+            "",
+            "garden"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Daniel travelled to the bathroom.",
+            "Sandra moved to the hallway.",
+            "Where is Sandra?",
+            "Sandra went to the office.",
+            "Mary journeyed to the kitchen.",
+            "Where is Mary?",
+            "Daniel went to the kitchen.",
+            "Mary went back to the garden.",
+            "Where is Mary?",
+            "Daniel moved to the bedroom.",
+            "Sandra travelled to the garden.",
+            "Where is Daniel?",
+            "Daniel went back to the hallway.",
+            "John moved to the bedroom.",
+            "Where is Sandra?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "10"
+            ],
+            [],
+            [],
+            [
+                "11"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "hallway",
+            "",
+            "",
+            "kitchen",
+            "",
+            "",
+            "garden",
+            "",
+            "",
+            "bedroom",
+            "",
+            "",
+            "garden"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Daniel journeyed to the bedroom.",
+            "Daniel moved to the kitchen.",
+            "Where is Daniel?",
+            "Mary travelled to the kitchen.",
+            "Mary moved to the bathroom.",
+            "Where is Daniel?",
+            "John travelled to the office.",
+            "Daniel went to the hallway.",
+            "Where is John?",
+            "John went back to the garden.",
+            "Sandra travelled to the bathroom.",
+            "Where is Mary?",
+            "Sandra journeyed to the office.",
+            "John went to the bathroom.",
+            "Where is John?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "7"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "14"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "kitchen",
+            "",
+            "",
+            "kitchen",
+            "",
+            "",
+            "office",
+            "",
+            "",
+            "bathroom",
+            "",
+            "",
+            "bathroom"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Daniel went to the bedroom.",
+            "Mary travelled to the bathroom.",
+            "Where is Daniel?",
+            "John went back to the kitchen.",
+            "John travelled to the hallway.",
+            "Where is Daniel?",
+            "Mary travelled to the hallway.",
+            "John travelled to the garden.",
+            "Where is John?",
+            "Sandra went to the office.",
+            "Mary moved to the bathroom.",
+            "Where is Mary?",
+            "Mary journeyed to the garden.",
+            "John went to the hallway.",
+            "Where is John?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "1"
+            ],
+            [],
+            [],
+            [
+                "1"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "11"
+            ],
+            [],
+            [],
+            [
+                "14"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "bedroom",
+            "",
+            "",
+            "bedroom",
+            "",
+            "",
+            "garden",
+            "",
+            "",
+            "bathroom",
+            "",
+            "",
+            "hallway"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Sandra went to the kitchen.",
+            "Mary moved to the kitchen.",
+            "Where is Sandra?",
+            "Sandra moved to the hallway.",
+            "Mary went to the office.",
+            "Where is Mary?",
+            "Daniel journeyed to the garden.",
+            "Sandra journeyed to the garden.",
+            "Where is Mary?",
+            "Daniel went back to the kitchen.",
+            "Sandra moved to the office.",
+            "Where is Daniel?",
+            "Daniel moved to the bedroom.",
+            "John travelled to the bathroom.",
+            "Where is John?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "1"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "10"
+            ],
+            [],
+            [],
+            [
+                "14"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "kitchen",
+            "",
+            "",
+            "office",
+            "",
+            "",
+            "office",
+            "",
+            "",
+            "kitchen",
+            "",
+            "",
+            "bathroom"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Sandra journeyed to the bathroom.",
+            "Daniel moved to the garden.",
+            "Where is Daniel?",
+            "Mary went back to the garden.",
+            "Daniel went back to the kitchen.",
+            "Where is Daniel?",
+            "Mary went back to the bedroom.",
+            "Mary went back to the bathroom.",
+            "Where is Daniel?",
+            "John journeyed to the hallway.",
+            "John went back to the bedroom.",
+            "Where is John?",
+            "Daniel journeyed to the bathroom.",
+            "John went back to the office.",
+            "Where is John?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "11"
+            ],
+            [],
+            [],
+            [
+                "14"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "garden",
+            "",
+            "",
+            "kitchen",
+            "",
+            "",
+            "kitchen",
+            "",
+            "",
+            "bedroom",
+            "",
+            "",
+            "office"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "John went to the kitchen.",
+            "John journeyed to the office.",
+            "Where is John?",
+            "Daniel travelled to the bedroom.",
+            "John journeyed to the kitchen.",
+            "Where is John?",
+            "John journeyed to the office.",
+            "Mary went back to the bathroom.",
+            "Where is Mary?",
+            "John journeyed to the garden.",
+            "Sandra went to the bathroom.",
+            "Where is John?",
+            "Sandra journeyed to the office.",
+            "John went back to the bathroom.",
+            "Where is Sandra?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "10"
+            ],
+            [],
+            [],
+            [
+                "13"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "office",
+            "",
+            "",
+            "kitchen",
+            "",
+            "",
+            "bathroom",
+            "",
+            "",
+            "garden",
+            "",
+            "",
+            "office"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Mary travelled to the kitchen.",
+            "Sandra moved to the office.",
+            "Where is Sandra?",
+            "Mary went back to the bedroom.",
+            "Mary journeyed to the kitchen.",
+            "Where is Mary?",
+            "John travelled to the bedroom.",
+            "Daniel went to the bedroom.",
+            "Where is Mary?",
+            "Sandra journeyed to the garden.",
+            "Sandra travelled to the office.",
+            "Where is Sandra?",
+            "Mary travelled to the office.",
+            "Mary journeyed to the kitchen.",
+            "Where is Sandra?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "5"
+            ],
+            [],
+            [],
+            [
+                "11"
+            ],
+            [],
+            [],
+            [
+                "11"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "office",
+            "",
+            "",
+            "kitchen",
+            "",
+            "",
+            "kitchen",
+            "",
+            "",
+            "office",
+            "",
+            "",
+            "office"
+        ]
+    },
+    {
+        "id": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15"
+        ],
+        "type": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+        ],
+        "text": [
+            "Sandra went to the kitchen.",
+            "John journeyed to the kitchen.",
+            "Where is Sandra?",
+            "Sandra went back to the garden.",
+            "Mary travelled to the hallway.",
+            "Where is John?",
+            "Sandra went back to the bathroom.",
+            "Daniel journeyed to the garden.",
+            "Where is Daniel?",
+            "John moved to the hallway.",
+            "Mary moved to the bathroom.",
+            "Where is Sandra?",
+            "John went back to the office.",
+            "Mary went to the kitchen.",
+            "Where is Mary?"
+        ],
+        "supporting_ids": [
+            [],
+            [],
+            [
+                "1"
+            ],
+            [],
+            [],
+            [
+                "2"
+            ],
+            [],
+            [],
+            [
+                "8"
+            ],
+            [],
+            [],
+            [
+                "7"
+            ],
+            [],
+            [],
+            [
+                "14"
+            ]
+        ],
+        "answer": [
+            "",
+            "",
+            "kitchen",
+            "",
+            "",
+            "kitchen",
+            "",
+            "",
+            "garden",
+            "",
+            "",
+            "bathroom",
+            "",
+            "",
+            "kitchen"
+        ]
+    }
+]
