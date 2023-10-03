@@ -2,9 +2,11 @@ from prompt import (
     PROMPT_PRONTOQA,
     PROMPT_PROOFWRITER,
     PROMPT_FOLIO,
+    PROMPT_LOGICALDEDUCTION,
     INSTRUCTION_PROMPT_PRONTOQA,
     INSTRUCTION_PROMPT_PROOFWRITER,
     INSTRUCTION_PROMPT_FOLIO,
+    INSTRUCTION_PROMPT_LOGICALDEDUCTION,
 )
 
 
@@ -43,4 +45,10 @@ class ProofWriter(Problem):
 
 
 class LogicalDeduction(Problem):
-    pass
+    def __init__(self):
+        self.dataset_path = "datasets/LogicalDeduction.json"
+        self.prompt = PROMPT_LOGICALDEDUCTION
+        self.answer_save_path = "output_file/LogicalDeduction_answer.json"
+        self.program_save_path = "output_file/LogicalDeduction_program.json"
+        self.instruction_prompt = INSTRUCTION_PROMPT_LOGICALDEDUCTION
+        self.choice = ["A", "B", "C", "D", "E", "F", "G", "H", "I"]

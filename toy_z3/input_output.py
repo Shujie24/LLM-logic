@@ -2,11 +2,17 @@ import json
 import os
 import logging
 import sys
+import random
 
 
 def read_json(filename, start, end):
     with open(filename, "r") as f:
-        return json.load(f)[start:end]
+        if start == -1:
+            lst = json.load(f)
+            random.seed(1024)
+            return random.sample(lst, end)
+        else:
+            return json.load(f)[start:end]
 
 
 def save_program(new_data, filename):

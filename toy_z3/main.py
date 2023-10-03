@@ -2,6 +2,7 @@ from input_output import read_json, save_program, save_answer
 from generate_program import AnswerGenerator
 from evaluation import Evaluator
 from util import *
+from datetime import datetime
 
 import openai
 import logging
@@ -25,7 +26,9 @@ def main():
         help="Number of iterations for self-refinement",
         default=4,
     )
-    parser.add_argument("start", type=int, help="starting index of data", default=0)
+    parser.add_argument(
+        "start", type=int, help="starting index of data", default=0
+    )  # start = -1 is treated as random selecting, then end is # of samples
     parser.add_argument("end", type=int, help="ending index of data", default=10)
     args = parser.parse_args()
 
@@ -66,7 +69,10 @@ def main():
         answer_list.append(answer_dict)
     print(f"Model name is {model_name}")
     print(f"Dataset name is {dataset_name}")
-    print(f"Total number of samples is {end-start}")
+    if start == -1:
+        print(f"Total number of samples is {end}")
+    else:
+        print(f"Total number of samples is {end-start}")
     print(f"Total tokens used is {total_token}")
     save_answer(answer_list, answer_save_path)
     evatuator = Evaluator(answer_list)
@@ -79,3 +85,5 @@ if __name__ == "__main__":
     # usage
     # python main.py  ProntoQA "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" 0 10
     # python main.py  ProofWriter "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" 0 10
+    # python main.py  FOLIO "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" 0 10
+    # python main.py  LogicalDeduction "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" 0 10

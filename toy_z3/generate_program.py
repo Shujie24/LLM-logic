@@ -45,7 +45,7 @@ class AnswerGenerator:
                 self.data["answer"],
                 self.data["id"],
             )
-            user_prompt = self.few_shot_prompt % (context, question)
+            user_prompt = self.few_shot_prompt % (context, question, options)
             conversation.append(user_prompt)
             prompt = prepare_prompt(self.instruction_prompt, conversation)
             try:
@@ -61,6 +61,7 @@ class AnswerGenerator:
                 "id": id_,
                 "context": context,
                 "question": question,
+                "options": options,
                 "program": response,
                 "answer": answer,
             }
